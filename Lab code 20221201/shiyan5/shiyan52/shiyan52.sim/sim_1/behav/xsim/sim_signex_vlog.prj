@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../shiyan52.srcs/sources_1/new/signex.v" \
+"../../../../shiyan52.srcs/sim_1/new/sim_signex.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

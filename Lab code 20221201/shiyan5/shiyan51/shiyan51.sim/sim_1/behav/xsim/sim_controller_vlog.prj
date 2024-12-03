@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../shiyan51.srcs/sources_1/new/alu_dec.v" \
+"../../../../shiyan51.srcs/sources_1/new/controller.v" \
+"../../../../shiyan51.srcs/sources_1/new/main_dec.v" \
+"../../../../shiyan51.srcs/sim_1/new/sim_controller.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

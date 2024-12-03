@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../rtl1/add.v" \
+"../../../../../rtl1/alu.v" \
+"../../../../../rtl2/alu_dec.v" \
+"../../../../../rtl2/controller.v" \
+"../../../../../rtl1/datapath.v" \
+"../../../../../rtl2/main_dec.v" \
+"../../../../../rtl1/mips.v" \
+"../../../../../rtl1/mux2.v" \
+"../../../../../rtl1/pc.v" \
+"../../../../../rtl1/ram.v" \
+"../../../../../rtl1/regfile.v" \
+"../../../../../rtl1/rom.v" \
+"../../../../../rtl1/shift.v" \
+"../../../../../rtl1/signext.v" \
+"../../../../../rtl1/top.v" \
+"../../../../../rtl1/testbanch.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

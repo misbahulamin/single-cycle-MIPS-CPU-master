@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/shiyan2/shiyan22/shiyan22.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/shiyan2/shiyan22/shiyan22.srcs/sim_1/new/sim_pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/shiyan2/shiyan22/shiyan22.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
